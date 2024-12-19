@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+button.show-menu {
+  font-size: 3rem;
+  width: 20rem;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.drop-down-container {
+  background-color: aquamarine;
+  width: 20rem;
+  border-radius: 10px;
+  visibility: hidden;
+}
+li.item {
+  font-size: 3rem;
+  text-decoration: underline;
+  text-align: center;
+}
